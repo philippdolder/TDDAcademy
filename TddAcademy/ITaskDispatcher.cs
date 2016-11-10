@@ -1,6 +1,6 @@
 ﻿namespace TddAcademy
 {
-    public interface ITaskDisdpatcher
+    public interface ITaskDispatcher
     {
         string GetTask();
 
