@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FooTest.cs" />
-    <Compile Include="InstrumentProcessorTest.cs" />
+    <Compile Include="InstrumentProcessorFacts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -2,8 +2,8 @@
 {
     using System.Threading.Tasks;
 
-    public interface IInstrumentProcessor
+    public interface IConsole
     {
-        Task Process();
+        Task Log(string message);
     }
 }
