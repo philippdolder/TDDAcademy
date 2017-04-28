@@ -19,10 +19,10 @@
             string actual = null;
 
             "When foo says something"
-                ._(() => actual = this.foo.Say());
+                .x(() => actual = this.foo.Say());
 
             "Then foo should say 'foobar'"
-                ._(() => actual.Should().Be("foobar"));
+                .x(() => actual.Should().Be("foobar"));
         }
     }
 }
