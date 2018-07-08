@@ -36,7 +36,7 @@
         {
             Func<Task> act = async () => await this.testee.Process();
             
-            act.ShouldThrow<ArgumentNullException>();
+            act.Should().Throw<ArgumentNullException>();
         }
 
         [Fact]
